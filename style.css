@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Darker Grotesque", sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #673DEA;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #673DEA;
+}
+::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 50px;
+}
+::-webkit-scrollbar {
+  width: 12px;
+}
+.container{
+    max-width: 80vw;
+    /* font-family: "Darker Grotesque", sans-serif; */
+} 
+.navbar{
+    height: 70px;
+    font-size: 23px;
+}
+.navbar a{
+   text-decoration: none;
+   color: #2f1c6a;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+.login{
+    padding: 10px;
+    font-family: "Darker Grotesque", sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    border: 2px solid black;
+    border-radius: 9%;
+}
+.nic li{
+  list-style: none;
+}
+.login:hover{
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.695) ;
+}
+.topleft{
+    width: 50%;
+    /* height: 50vh; */
+    font-size: 23px;
+    padding: 1px 0;
+    margin-top: 50px;
+}
+.price{
+    font-size: 80px;
+    font-weight: 700;
+}
+.free{
+    font-size: 30px;
+}
+.topright{
+    width: 50%;
+    /* height: 50vh; */
+    padding: 1px 0;
+}
+
+.logo{
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color: #1E1E1E;
+    
+}
+.img{
+    margin-top: 45px;
+}
+
+.tick {
+    list-style: none;
+    padding: 0;
+  } 
+.tick li:before {
+    content: '✓ ';
+  }
+
+  .section2{
+    padding: 0 63px;
+  }
+  .box{
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 21vw;
+    border: 0.5px solid #c4c9f8;
+    text-align: center;
+    border-radius: 5px;
+  }
+  .box ul{
+    list-style-type: none;
+  }
+  .box ul li{
+    
+    margin: 12px 2px;
+  }
+
+  .section3{
+    padding: 73px;
+}
+  .tb{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .table{
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  border-collapse: collapse;
+  }
+  .table th{
+    width: 23vw;
+    padding: 15px 0px;
+    border-bottom: 2px dotted #c4c9f8;
+  }
+  .table td{   
+    border-bottom: 2px dotted #c4c9f8; 
+}
+
+footer{
+  padding: 23px;
+  text-align: center;
+  font-size: 23px;
+}
+.hr{
+    display: none;
+}

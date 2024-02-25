@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="phone.css">
+    <link rel="stylesheet" href="util.css">
+    <script src="timer.js"></script>
+</head>
+
+<body class="overflow-hidden">
+    <div class="container mx-auto min-h-screen">
+        <header>
+            <nav class="flex justify-between items-center">
+                <div class="flex items-center font-bold logo">
+                    DeadHost
+                </div>
+                <ul class="nav navbar flex items-center my-4">
+                    <li> <a href="#wordpress">WordPress</a></li>
+                    <li><a href="#wordpress">Website Builder</a></li>
+                    <li><a href="#wordpress">Hosting</a>
+                        <!-- <select name="Hosting">
+                        <option value="Web Hosting">Web</option>
+                        <option value="Cloud Hosting">Cloud</option>
+                    </select> -->
+                    </li>
+                    <li><a href="#wordpress">Pro</a></li>
+                </ul>
+                <div class="flex">
+                    <ul class="nic action flex items-center">
+                        <li class="nic"><button class="login">Log in</button></li>
+                        <li class="menu flex" id="menu"><ion-icon name="menu"></ion-icon></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <hr class="hr">
+        <main class="min-h-screen">
+            <section class="section1">
+                <div class="flex contentbox">
+                    <div class="topleft flex justify-center flex-col px-2">
+                        <h1 class="my-1 titlesec1">Everything You Need to <br>Create a Website</h1>
+                        <h3 class="my-3">Up to <span class="textblue">75%</span> off Hosting + Website Builder</h3>
+                        <br>
+                        <ul class="tick my-4">
+                            <li>Free Domain</li>
+                            <li>Free Website Migration</li>
+                            <li>24/7 Customer Support</li>
+                        </ul>
+                        <p>₹
+                            <span class="font-bold price textviolet">149.00</span>
+                            /mo <br>
+                            + <span class="textviolet free font-bold">2 Months Free</span>
+                        </p> 
+                        <p class="deal my-4 font-bold">The deal ends in <span id="demo" class="my-2"></span></p>
+                            <div class="buttons">
+                                <button class="btn1">Claim now</button>
+                                <button class="btn">Contact Us</button>
+                            </div>
+                    </div>
+                    <div class="topright ">
+                        <img class="img" src="img.gif" alt="website image">
+                    </div>
+                </div>
+    </div>
+    </section>
+    <!-- <hr> -->
+    <section class="section2">
+        <h1 class="textcenter my-2 textviolet padz">Pick Your Perfect Plan</h1>
+        <div class="boxes flex justify-center">
+            <div class="my-4 box">
+                <h2>Beginner</h2>
+                <p>Everything you need to create your website</p><br>
+                <ul>
+                    <li class="my-2 font-bold">₹49.00/mo</li>
+
+                    <li>Standard Performance</li>
+                    <li>10 Websites</li>
+                    <li>10 GB SSD Storage</li>
+                    <li>Monthly Backups</li>
+                    <li>Limited Free SSL</li>
+                    <li><button class="btn my-4">Sign up</button></li>
+
+                </ul>
+            </div>
+            <div class="my-4 box">
+                <h2>Premium</h2>
+                <p>Enjoy optimised performance & guaranteed <br>resources</p>
+                <ul>
+                    <li class="my-2 font-bold">₹149.00/mo</li>
+                    <li>Increased Performance (Up to 5x)</li>
+                    <li>100 Websites</li>
+                    <li>100 GB SSD Storage</li>
+                    <li>Weekly Backups</li>
+                    <li>Unlimited Free SSL</li>
+                    <li><button class="btn1 my-4">Sign up</button></li>
+
+                </ul>
+            </div>
+            <div class="my-4 box">
+                <h2>Business</h2>
+                <p>Level-up your business with more power <br>and enhanced features</p>
+                <ul>
+                    <li class="my-2 font-bold">₹299.00/mo</li>
+                    <li>Increased Performance (Up to 20x)</li>
+                    <li>1000 Websites</li>
+                    <li>1000 GB SSD Storage</li>
+                    <li>Daily Backups</li>
+                    <li>Unlimited Free SSL</li>
+                    <li><button class="btn my-4">Sign up</button></li>
+
+                </ul>
+            </div>
+
+        </div>
+    </section>
+    <!-- <hr> -->
+    <section class="section3">
+        <h1 class="textcenter my-2 textviolet padz">Compare Our Plans</h1>
+        <div class="my-4 tb">
+            <table class="table textcenter">
+                <thead class="my-3">
+                    <tr class="t12">
+                        <th></th>
+                        <th>Beginner</th>
+                        <th>Premium</th>
+                        <th>Business</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                      <th scope="row">Secure</th>
+                      <td>Yes</td>
+                      <td>Yes</td>
+                      <td>Yes</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Fast</th>
+                      <td>-</td>
+                      <td>Yes</td>
+                      <td>Yes</td>
+                    </tr>
+                  </tbody>
+          
+                  <tbody>
+                    <tr>
+                      <th scope="row">Permissions</th>
+                      <td>Yes</td>
+                      <td>Yes</td>
+                      <td>Yes</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Sharing</th>
+                      <td>-</td>
+                      <td>Yes</td>
+                      <td>Yes</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Customer Support</th>
+                      <td>-</td>
+                      <td>Yes</td>
+                      <td>Yes</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Extra security</th>
+                      <td>-</td>
+                      <td>-</td>
+                      <td>Yes</td>
+                    </tr>
+                  </tbody>
+            </table>
+        </div>
+    </section>
+    </main>
+    <footer>
+        Copyright &copy; 2024 Kunal Chauhan | All rights reserved.
+    </footer>
+    </div>
+</body>
+
+</html>
